@@ -1,0 +1,122 @@
+body {
+  margin-left: 10px;
+}
+
+.top-heading {
+  color: white;
+  display: flex;
+}
+.btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+.btn:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+#root {
+  text-align: center;
+}
+.img-1 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.mt-3 {
+  margin-top: 10px;
+}
+.center {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items {
+  align-items: center;
+}
+.w-50 {
+  width: 50%;
+}
+.w-90 {
+  width: 90%;
+}
+input {
+  padding: 15px 20px;
+  border : 2px solid lightgray;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 75%;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.btn-custom {
+  padding: 15px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+.btn-custom:hover {
+  border: 1px solid green;
+  color: green;
+  background-color: transparent;
+}
+input:focus {
+  border-color: green !important;
+  outline: none;
+}
+.error-div {
+  margin-top: 5px;
+  color: red;
+}
+.input-error {
+  border-color: red;
+}
+.btn {
+  padding: 15px 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+.btn:hover {
+  border: 1px solid green;
+  color: green;
+  background-color: transparent;
+}
+.loading {
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.btn-3 {
+  padding: 15px 15px;
+  height: 50px;
+  width: 80px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+.btn-3:hover {
+  border: 1px solid red;
+  color: red;
+  background-color: transparent;
+}
